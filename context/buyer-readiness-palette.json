@@ -1,0 +1,51 @@
+{
+  "note": "This replaces the old BLACK buyer-readiness/live-analysis card look with a white/light theme.",
+  "card_container": { "background_color": "#FFFFFF", "border_radius": "16px", "outer_background": "#F0F4F8" },
+  "content": {
+    "main_heading": {
+      "text": "Gerald is highly engaged with the concept of real-time synthesis but remains skeptical about whether any tool can truly replicate the intuitive leap required for high-stakes sales.",
+      "font_weight": "bold",
+      "color": { "name": "Dark Charcoal / Almost Black", "hex": "#0F172A" }
+    },
+    "score_label": {
+      "text": "Solution-Curious — 65/100",
+      "font_weight": "bold",
+      "color": { "name": "Dark Slate Gray", "hex": "#1E293B" }
+    },
+    "quote_section": {
+      "left_border_color": { "name": "Rust / Orange-Brown", "hex": "#C2410C" },
+      "text": "Gerald is deeply problem-aware and trusts the rep's framing of the 'synthesis' challenge, but he is not yet convinced the technology can replace human intuition. Avoid over-selling the 'AI' aspect; focus entirely on the mechanics of the real-time coaching prompt. The next best action is to deliver a demo that specifically addresses his skepticism about 'canned' versus 'organic' responses.",
+      "text_color": { "name": "Charcoal Text", "hex": "#1E293B" }
+    },
+    "crm_status": {
+      "label_text": "CRM says",
+      "label_color": { "name": "Dark Slate", "hex": "#1E293B" },
+      "value_text": "discovery",
+      "value_color": { "name": "Black", "hex": "#000000" }
+    },
+    "blocked_box": {
+      "background_color": { "name": "Light Pink / Soft Red", "hex": "#FDF2F2" },
+      "border_color": { "name": "Soft Red Border", "hex": "#F87171" },
+      "header_text": "BLOCKED",
+      "header_color": { "name": "Crimson Red", "hex": "#E11D48" },
+      "bullet_points": [
+        "Gerald has seen a dozen approaches fail and doubts if a tool can capture the 'intuitive leap' and 'empathy' required for high-level sales.",
+        "He is concerned about the difficulty of teaching this skill and whether the tool can actually 'bottle up' the nuance of strategic thinking."
+      ],
+      "bullet_text_color": { "name": "Dark Burgundy / Red-Brown", "hex": "#881337" }
+    },
+    "collapsible_link": {
+      "icon_color": { "name": "Teal / Emerald", "hex": "#0D9488" },
+      "text": "Transcript this diagnosis was read from",
+      "text_color": { "name": "Dark Charcoal", "hex": "#0F172A" }
+    },
+    "ai_confidence_badge": {
+      "ring_active_color": { "name": "Emerald Green", "hex": "#059669" },
+      "ring_track_color": { "name": "Light Gray-Green", "hex": "#E2E8F0" },
+      "center_text": "High",
+      "center_text_color": { "name": "Black", "hex": "#000000" },
+      "bottom_label": "AI confidence",
+      "bottom_label_color": { "name": "Muted Slate Blue", "hex": "#64748B" }
+    }
+  }
+}

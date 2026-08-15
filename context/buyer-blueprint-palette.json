@@ -1,0 +1,59 @@
+{
+  "card": {
+    "title": "Buyer Blueprint — Quick View",
+    "background_color": "#EBF3FA",
+    "border_color": "#0052CC",
+    "text_colors": {
+      "heading": "#172B4D",
+      "labels": "#42526E",
+      "body": "#091E42",
+      "accent_cyan": "#008DA6"
+    }
+  },
+  "disc_chart": {
+    "highlighted_quadrant": { "label": "C", "fill_color": "#83B4FF" },
+    "dot_color": "#091E42",
+    "scores": {
+      "D": { "value": 75, "color": "#D32F2F" },
+      "I": { "value": 40, "color": "#E65100" },
+      "S": { "value": 60, "color": "#F57C00" },
+      "C": { "value": 85, "color": "#E64A19" }
+    }
+  },
+  "profile_data": {
+    "archetype": "Skeptical Profit-Driven Analyst",
+    "personality_read": "D 75 | I 40 | S 60 | C 85",
+    "decision_pattern": "Process-driven · consensus",
+    "social_style": "Analytical",
+    "likely_objection": "He has spent four decades watching \"hype-driven venture betting\" and calls himself the Prophet of Profit — a sales-coaching tool will read as more startup theater until it proves it builds durable discipline instead of noise."
+  },
+  "trust_triggers": {
+    "section_title": "Trust Triggers™",
+    "badge_style": { "background_color": "#DCFCE7", "border_color": "#22C55E", "text_color": "#14532D" },
+    "items": [
+      "Present data and evidence to back up claims.",
+      "Focus on measurable ROI and tangible, repeatable results.",
+      "Acknowledge his extensive experience and skepticism towards fads."
+    ],
+    "more_link_color": "#008DA6"
+  },
+  "resistance_signals": {
+    "section_title": "Resistance Signals™",
+    "badge_style": { "background_color": "#FEE2E2", "border_color": "#EF4444", "text_color": "#7F1D1D" },
+    "items": [
+      "Overly enthusiastic or 'hype-driven' language.",
+      "Vague claims without specific proof or examples.",
+      "Focusing on product features over business outcomes."
+    ],
+    "more_link_color": "#008DA6"
+  },
+  "missing_evidence": {
+    "section_title": "Missing evidence",
+    "text_color": "#334155",
+    "items": [
+      "how it actively coaches a founder to make that intuitive leap",
+      "how it helps them craft those organic, impactful value statements in real time"
+    ],
+    "button": { "label": "Add evidence", "background_color": "#FFFFFF", "text_color": "#0F172A" }
+  }
+}
