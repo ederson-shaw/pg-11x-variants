@@ -8,6 +8,7 @@
   <title>PitchGenius — see the decision while it is still moving</title>
   <link rel="icon" href="assets/g-mark.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="source-design.css" />
   <noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
 </head>
 <body>
@@ -252,10 +253,21 @@
             <span class="live-card__state">Listening</span>
             <span class="live-card__context">Readiness 45 · DISCOVERY</span>
           </header>
+          <div class="live-card__readout" aria-label="Example buyer readiness readout">
+            <div class="live-card__readout-top"><span>BUYER READINESS</span><b>45 / 100 · not sold yet</b></div>
+            <div class="live-card__stages"><span>Opening</span><span class="is-current">Discovery</span><span>Value</span><span>Decision</span><span>Close</span></div>
+            <div class="live-card__signals">
+              <span><b>Trust</b><i><em style="width:46%"></em></i><strong>46</strong></span>
+              <span><b>Urgency</b><i><em style="width:30%"></em></i><strong>30</strong></span>
+              <span><b>Feels safe</b><i><em style="width:58%"></em></i><strong>58</strong></span>
+              <span><b>Willingness to move</b><i><em style="width:52%"></em></i><strong>52</strong></span>
+            </div>
+          </div>
+          <div class="live-card__signal-note"><span>BUYER SIGNAL</span><p>Buyer is still describing the screen display.</p></div>
           <div class="live-card__blocks" data-cue-current>
             <section><h3>Next best move</h3><p>Clarify the display behavior.</p></section>
             <section><h3>Say this</h3><p class="live-card__quote">“The display scales to fit the screen. What are you seeing on your screen?”</p></section>
-            <section><h3>Why now</h3><p>reading the room <span>→</span> this is the moment it costs him something</p></section>
+            <section><h3>Why now</h3><p>The buyer is describing the screen, not the outcome. Resolve the observation before moving to value.</p></section>
           </div>
           <footer>
             <button class="live-card__why" type="button" data-detail-toggle aria-expanded="false" aria-controls="humancue-context">Why this, now?</button>
@@ -382,9 +394,9 @@
       <div class="closing__overlay"></div>
       <div class="closing__content" data-reveal>
         <p class="eyebrow eyebrow--cyan">THE FUTURE OF THE SALES PROFESSION</p>
-        <h2>Understand more.<br><em>Stay human in the call.</em></h2>
+        <h2>See more.<br><em>Understand more.<br>Sell like a human.</em></h2>
         <p>PitchGenius gives salespeople better awareness before, during, and after a conversation—without taking them out of it.</p>
-        <div class="closing__actions"><a class="button button--dark" href="https://pitchgenius.ai">Book a pilot <svg class="icon icon--arrow" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10 10 2M4 2h6v6"/></svg></a><a class="button button--light" href="#humancue">See HumanCue live <svg class="icon icon--arrow" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10 10 2M4 2h6v6"/></svg></a></div>
+        <div class="closing__actions"><a class="button button--cyan" href="#humancue">See HumanCue live <svg class="icon icon--arrow" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10 10 2M4 2h6v6"/></svg></a><a class="button button--light" href="https://pitchgenius.ai">Book a pilot <svg class="icon icon--arrow" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 10 10 2M4 2h6v6"/></svg></a></div>
         <p class="closing__manifesto">Technology should make sales professionals stronger, not more replaceable.</p>
       </div>
       <p class="closing__chapter">16 / PitchGenius AI</p>
