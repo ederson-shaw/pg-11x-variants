@@ -279,3 +279,7 @@
 @media (prefers-reduced-motion:reduce){
   .l-board,.l-rep-row,.l-learn-more{transition:none!important;animation:none!important}.l-mini-wave i,.l-prompt-meter i{animation:none!important}
 }
+
+/* The coaching queue is intentionally a team view: keep every rep visible on
+   desktop as well as mobile so the manager can see the full evidence queue. */
+.l-board--coaching .l-rep-row:nth-child(n+5){display:grid}
