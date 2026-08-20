@@ -223,6 +223,11 @@
   .l-enhanced.split-page .split-copy{max-width:640px}
 }
 
+@media (min-width:1400px){
+  /* Keep the explanatory handoff notes outside the orbit's right-hand nodes. */
+  .loop-page .loop-notes{left:auto;right:60px;width:300px}
+}
+
 @media (max-width:900px){
   .l-feature-band,.l-feature-band--moment,.l-feature-band--belief{grid-template-columns:1fr;gap:28px;margin-top:64px}
   .l-feature-copy h3{max-width:680px;font-size:clamp(30px,5.2vw,44px)}
